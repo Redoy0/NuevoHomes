@@ -139,12 +139,24 @@
 
 
 .nav-link {
-    color: black;
+    /* color: black;
     font-size: 24px;
     font-family: Circular Std;
     font-weight: 500;
     text-decoration: none; /* Remove underline */
-    margin-right: 50px; /* Add space between links */
+    /* margin-right: 50px;  */
+   
+        position: relative;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #333;
+        text-decoration: none;
+        padding: 6px 20px;
+        transform: .5s;
+    
+}
+nav-item a:hover{
+    color: #0ef;
 }
 
 .login-container {
