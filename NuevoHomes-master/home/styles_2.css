@@ -1,0 +1,192 @@
+.container {
+    /* width: 1024px;
+    height: 100%; */
+    position: relative;
+    background: #F8FAFF;
+}
+
+.content {
+    /* width: 1024px;
+    height: 804.77px; */
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.background {
+    width: 1024px;
+    height: 804.77px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+.text-container {
+    width: 706.36px;
+    height: 179.08px;
+    left: 1002px;
+    top: 36.48px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Circular Std;
+    font-weight: 700;
+}
+
+.description {
+    width: 700.91px;
+    height: 208.93px;
+    left: 1002px;
+    top: 264.20px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.title-part2 {
+    color: #19D871;
+}
+
+.title-part4 {
+    color: #1739B1;
+}
+
+.price-text {
+    width: 256.36px;
+    height: 39.80px;
+    left: 1002.27px;
+    top: 610.21px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.price {
+    width: 193.64px;
+    height: 59.69px;
+    left: 1002.27px;
+    top: 650px;
+    position: absolute;
+    color: #1739B1;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.button-container {
+    width: 321px;
+    height: 82.91px;
+    left: 1262px;
+    top: 633.36px;
+    position: absolute;
+}
+
+.button {
+    width: 321px;
+    height: 82.91px;
+    background: #19D871;
+    border-radius: 20px;
+}
+
+.button-inner {
+    width: 266.79px;
+    height: 53.06px;
+    left: 27.11px;
+    top: 15.48px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    left: 237px;
+    top: 17.64px;
+    position: absolute;
+    background: #F8F8F8;
+}
+
+.logo {
+    width: 232px;
+    height: 41px;
+    left: 60px;
+    top: 41px;
+    position: absolute;
+    color: #1739B1;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.navigation {
+    left: 650px;
+    top: 61px;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.nav-link {
+    /* color: black;
+    font-size: 24px;
+    font-family: Circular Std;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    /* margin-right: 50px;  */
+   
+        position: relative;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #333;
+        text-decoration: none;
+        padding: 6px 20px;
+        transform: .5s;
+    
+}
+nav-item a:hover{
+    color: #0ef;
+}
+
+.login-container {
+    left: 1400px;
+    top: 30px;
+    position: relative;
+}
+
+.login-link {
+    color: #1739B1;
+    font-size: 24px;
+    font-family: Circular Std;
+    font-weight: 500;
+    text-decoration: none; /* Remove underline */
+    margin-right: 50px;
+}
+
+.signup {
+    color: #1739B1;
+    font-size: 24px;
+    font-family: Circular Std;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.image {
+    width: 904px;
+    height: 805px;
+    left: 60px;
+    top: 160px;
+    position: absolute;
+    border-top-left-radius: 120px;
+}

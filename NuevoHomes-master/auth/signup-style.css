@@ -1,0 +1,241 @@
+.SignupPage {
+  width: 1024px;
+  height: 720px;
+  position: relative;
+}
+
+.Group4 {
+  width: 1024px;
+  height: 870px;
+  left: 60px;
+  top: 95px;
+  position: absolute;
+}
+
+.signup .signup-btn {
+  margin-left: 160px;
+  width: 316px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  font-size: 16px;
+  border: 1px solid #f0edff;
+  background: #19d871;
+}
+
+.signup .login-btn {
+  width: 250px;
+  height: 47px;
+  margin-left: 185px;
+  background-color: #1c1c1c;
+  color: #f8faff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.signup .name {
+  margin-left: 110px;
+  width: 400px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(240, 237, 255, 0.8);
+}
+
+.signup .username {
+  margin-left: 110px;
+  width: 400px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(240, 237, 255, 0.8);
+}
+
+.signup .email {
+  margin-left: 110px;
+  width: 400px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(240, 237, 255, 0.8);
+  border-color: rgba(240, 237, 255, 0.8);
+}
+
+.signup .password {
+  margin-left: 110px;
+  width: 400px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(240, 237, 255, 0.8);
+}
+
+.signup .cnfrmpassword {
+  margin-left: 110px;
+  width: 400px;
+  height: 47.325px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: rgba(240, 237, 255, 0.8);
+}
+
+.accont-text {
+  text-align: center;
+}
+
+.Rectangle1 {
+  width: 1800px;
+  height: 900px;
+  left: 0px;
+  top: 20px;
+  position: absolute;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}
+
+.Rectangle2 {
+  width: 900px;
+  height: 804.77px;
+  left: 900px;
+  top: 20px;
+  position: absolute;
+  border-top-right-radius: 120px;
+}
+
+.EllipseLogin {
+  width: 500px;
+  height: 500px;
+  left: 1558px;
+  top: 0px;
+  position: absolute;
+  opacity: 0.5;
+  background: #4c9af5;
+  box-shadow: 500px 500px 500px;
+  border-radius: 9999px;
+  filter: blur(500px);
+}
+
+.MingcuteArrowRightFill {
+  width: 48px;
+  height: 48px;
+  left: 1499px;
+  top: 651px;
+  position: absolute;
+}
+
+.CreateAccount {
+  width: 482px;
+  left: 150px;
+  top: 150px;
+  height: 179.08px;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  font-family: Circular Std;
+  font-weight: 700;
+}
+
+.create {
+  color: #224fef;
+}
+
+.registration {
+  width: 600px;
+  height: 550px;
+  left: 150px;
+  top: 300px;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  overflow: hidden;
+  border: 1px rgba(0, 0, 0, 0.15) solid;
+  backdrop-filter: blur(15px);
+}
+.logo {
+  width: 232px;
+  height: 41px;
+  left: 60px;
+  top: 41px;
+  position: absolute;
+  color: #1739b1;
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.signup-text {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-family: Circular Std;
+  font-weight: 700;
+}
+
+.login {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type="submit"] {
+  background-color: #19d871;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #19d871;
+}
+
+.navigation {
+  left: 1100px;
+  top: 61px;
+  position: relative;
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+  font-size: 24px;
+  font-family: Circular Std;
+  font-weight: 500;
+  text-decoration: none; /* Remove underline */
+  margin-right: 50px; /* Add space between links */
+}
+
+.Nuevohome {
+  width: 232px;
+  height: 41px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  color: #1739b1;
+  font-size: 36px;
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.Group13 {
+  width: 651px;
+  height: 30px;
+  left: 973px;
+  top: 20px;
+  position: absolute;
+}
